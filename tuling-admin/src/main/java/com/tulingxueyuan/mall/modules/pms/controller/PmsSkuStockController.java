@@ -34,7 +34,6 @@ public class PmsSkuStockController {
         List<PmsSkuStock> list = skuStockService.list(pid,keyword);
         return CommonResult.success(list);
     }
-
     /**
      *      for (PmsSkuStock pmsSkuStock : pmsSkuStocks) {
      *             skuStockService.updateById(pmsSkuStock);
